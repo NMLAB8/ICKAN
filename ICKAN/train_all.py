@@ -290,7 +290,7 @@ def train_and_test_models(model, device, train_loader, test_loader, optimizer, c
     return all_train_loss, all_test_loss, all_test_accuracy, all_test_precision, all_test_recall, all_test_f1
 
 
-def load_dataset_files(root_dir="/root/autodl-tmp/乐器分类数据集20类_10s_难_mp3"):
+def load_dataset_files(root_dir=""):
     """加载原始数据文件，并将其打标签分类"""
 
     # 定义类别及其对应的标签
