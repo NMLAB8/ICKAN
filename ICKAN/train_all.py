@@ -354,7 +354,7 @@ if __name__ == '__main__':
     # 保存路径
 
     checkpoint_path = None  # 完整路径，如果为None则是不加载
-    # checkpoint_path = "/content/drive/MyDrive/Convolutional-KANs-master/checkpoint/checkpoint_epoch_10.pth"
+    
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
