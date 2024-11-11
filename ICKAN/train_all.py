@@ -333,7 +333,7 @@ def load_dataset_files(root_dir=""):
 
 if __name__ == '__main__':
     # 目标目录路径
-    target_directory = "/root/autodl-tmp/Convolutional-KANs-master"
+    target_directory = " "
     os.chdir(target_directory)
 
     # 验证当前工作目录
