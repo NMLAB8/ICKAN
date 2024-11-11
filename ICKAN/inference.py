@@ -192,7 +192,7 @@ def evaluate_all_models(test_loader):
 
 if __name__ == "__main__":
     # 设置工作目录
-    target_directory = "/root/autodl-tmp/Convolutional-KANs-master"
+    target_directory = " "
     os.chdir(target_directory)
     
     # 加载测试集
