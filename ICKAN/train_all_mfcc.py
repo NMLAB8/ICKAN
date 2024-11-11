@@ -335,7 +335,7 @@ if __name__ == '__main__':
     print(f"当前工作目录: {current_directory}")
 
     # 定义数据集根目录
-    train_paths, test_paths, train_labels, test_labels = load_dataset_files("/root/autodl-tmp/乐器分类数据集20类_10s_难_mp3")
+    train_paths, test_paths, train_labels, test_labels = load_dataset_files(" ")
 
     # 创建训练集和测试集的数据集对象
     train_dataset = AudioDataset_MFCC(train_paths, train_labels, n_mels=64, max_length=431)
